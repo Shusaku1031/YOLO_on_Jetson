@@ -1,0 +1,25 @@
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040708561100791_003.jpg 47,42,1235,438,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040715552900201_020.jpg 929,157,1275,336,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040712343500621_052_augment.jpg 911,55,1197,295,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040715552900111_036.jpg 76,134,226,287,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/4444b_M19040710503000421_010_augment.jpg 907,55,1267,368,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040708561100631_083_augment.jpg 698,122,968,342,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/tomita_M19040515020900041_087_augment.jpg 228,1,755,250,0 801,5,1280,309,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040706423300071_120.jpg 842,247,1043,343,0 5,1,817,313,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040712343500751_078_augment.jpg 529,210,653,315,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040715552900061_077.jpg 560,245,684,318,0 71,264,185,355,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/4444b_M19040710503000421_092.jpg 1,1,676,416,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040708561100681_115.jpg 732,16,1232,258,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040708561100791_016_augment.jpg 10,3,1280,603,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040715552900201_021_augment.jpg 960,126,1258,327,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040712343500021_039.jpg 89,1,519,301,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/tomita_M19040515020900031_125_augment.jpg 31,6,805,242,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040708561100671_001_augment.jpg 1,26,479,286,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/tomita_M19040515020900041_004_augment.jpg 29,1,915,283,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040712343500651_073.jpg 697,1,1151,308,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040712343500651_123.jpg 208,82,498,270,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040715552900031_116.jpg 493,169,759,321,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040706423300151_106_augment.jpg 907,182,1280,340,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040708561100631_097_augment.jpg 690,1,1280,380,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/1111b_M19040712343500021_003.jpg 21,103,318,328,0
+/home/tomita/keras-yolo3/VOCdevkit/VOC2007/JPEGImage/tomita_M19033108291100061_041.jpg 1,116,470,363,0

@@ -25,17 +25,17 @@ if __name__ == '__main__':
     Command line options
     '''
     parser.add_argument(
-        '--model', type=str,
+        '--model_path', type=str,
         help='path to model weight file, default ' + YOLO.get_defaults("model_path")
     )
 
     parser.add_argument(
-        '--anchors', type=str,
+        '--anchors_path', type=str,
         help='path to anchor definitions, default ' + YOLO.get_defaults("anchors_path")
     )
 
     parser.add_argument(
-        '--classes', type=str,
+        '--classes_path', type=str,
         help='path to class definitions, default ' + YOLO.get_defaults("classes_path")
     )
 
@@ -61,6 +61,10 @@ if __name__ == '__main__':
         help = "[Optional] Video output path"
     )
 
+    parser.add_argument(
+        "--frame_path", nargs='?', type=str, default="",
+        help = "Frame save path"
+    )
     FLAGS = parser.parse_args()
 
     if FLAGS.image:
@@ -72,6 +76,6 @@ if __name__ == '__main__':
             print(" Ignoring remaining command line arguments: " + FLAGS.input + "," + FLAGS.output)
         detect_img(YOLO(**vars(FLAGS)))
     elif "input" in FLAGS:
-        detect_video(YOLO(**vars(FLAGS)), FLAGS.input, FLAGS.output)
+        detect_video(YOLO(**vars(FLAGS)), FLAGS.input, FLAGS.output, FLAGS.frame_path)
     else:
         print("Must specify at least video_input_path.  See usage with --help.")
