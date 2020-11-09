@@ -1,0 +1,19 @@
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_22700.jpg 189,37,219,292,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_32077.jpg 15,71,379,136,0 12,83,378,193,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_9178.jpg 236,4,395,248,0 5,62,340,103,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_30270.jpg 130,26,210,410,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_13403.jpg 36,126,381,173,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_12097.jpg 44,2,180,414,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_11984.jpg 4,60,380,93,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_5541.jpg 6,178,303,400,0 115,21,407,234,0 35,124,336,346,0 78,74,374,294,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_19283.jpg 248,0,403,53,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_36793.jpg 25,22,404,295,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_23250.jpg 61,2,415,228,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_4623.jpg 106,33,414,251,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_25422.jpg 0,0,210,250,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_37249.jpg 206,27,369,241,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_17835.jpg 237,68,293,276,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_27794.jpg 1,113,411,287,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_9741.jpg 2,48,232,398,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_4922.jpg 15,101,397,239,0
+/home/tomita/keras-yolo3/use_images/n02783161/n02783161_30344.jpg 43,81,319,215,0

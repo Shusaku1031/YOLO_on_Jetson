@@ -6,6 +6,8 @@ from PIL import Image
 def detect_img(yolo):
     while True:
         img = input('Input image filename:')
+        if img == "q":
+            break
         try:
             image = Image.open(img)
         except:
@@ -13,7 +15,8 @@ def detect_img(yolo):
             continue
         else:
             r_image = yolo.detect_image(image)
-            r_image.show()
+            print(r_image["info"])
+            r_image["image"].show()
     yolo.close_session()
 
 FLAGS = None

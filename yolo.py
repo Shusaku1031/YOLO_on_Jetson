@@ -23,13 +23,13 @@ from keras.utils import multi_gpu_model
 
 class YOLO(object):
     _defaults = {
-        "model_path": 'model_data/yolo.h5',
-        #"model_path" : 'logs/000/trained_weights_final.h5',
-        "anchors_path": 'model_data/yolo_anchors.txt',
+        #"model_path": 'model_data/yolo.h5',
+        "model_path" : 'logs/000/trained_weights_final.h5',
+        "anchors_path": 'model_data/tiny_yolo_anchors.txt',
         "classes_path": 'model_data/voc_classes.txt',
-        "score" : 0.15,
-        "iou" : 0.005,
-        "model_image_size" : (384, 640),
+        "score" : 0.05,
+        "iou" : 0.5,
+        "model_image_size" : (416, 416),
         "gpu_num" : 1,
     }
 
@@ -105,8 +105,11 @@ class YOLO(object):
         return boxes, scores, classes
 
     #検出した時のフレームを保存
-    def detect_image(self, image, video_path, frame_path):
+    def detect_image(self, image):#, video_path, frame_path):
         start = timer()
+
+        return_info = {}
+        return_info["info"] = []
 
         if self.model_image_size != (None, None):
             assert self.model_image_size[0]%32 == 0, 'Multiples of 32 required'
@@ -136,7 +139,11 @@ class YOLO(object):
                     size=np.floor(3e-2 * image.size[1] + 0.5).astype('int32'))
         thickness = (image.size[0] + image.size[1]) // 300
 
+
         for i, c in reversed(list(enumerate(out_classes))):
+
+            detected_info = {}
+
             predicted_class = self.class_names[c]
             box = out_boxes[i]
             score = out_scores[i]
@@ -151,6 +158,17 @@ class YOLO(object):
             bottom = min(image.size[1], np.floor(bottom + 0.5).astype('int32'))
             right = min(image.size[0], np.floor(right + 0.5).astype('int32'))
             print(label, (left, top), (right, bottom))
+
+            detected_info["class"] = predicted_class
+            detected_info["score"] = float(score)
+            detected_info["bbox"] = {
+                "left": int(left),
+                "top": int(top),
+                "right": int(right),
+                "bottom": int(bottom)
+            }
+
+            return_info["info"].append(detected_info)
 
             if top - label_size[1] >= 0:
                 text_origin = np.array([left, top - label_size[1]])
@@ -168,7 +186,7 @@ class YOLO(object):
             draw.text(text_origin, label, fill=(0, 0, 0), font=font)
             del draw
 
-        if(len(out_boxes) != 0 and frame_path != ""):
+        """if(len(out_boxes) != 0 and frame_path != ""):
             #print(type(image))
             
             frame_name = video_path.split('/')[-1].split('.')[0] + '_{0:0=8}.jpg'.format(self.frame_count)
@@ -214,12 +232,16 @@ class YOLO(object):
 
             finally:
                 # ソケットを閉じて終了
-                s.close()
+                s.close() """
             
 
         end = timer()
         print(end - start)
-        return image
+
+        return_info["image"] = image
+
+        #return image
+        return return_info
 
     def close_session(self):
         self.sess.close()
