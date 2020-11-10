@@ -1,8 +1,23 @@
 import os
 import json
 import pprint
+import argparse
 from yolo import YOLO
 from PIL import Image, ImageDraw
+
+parser = argparse.ArgumentParser(argument_default=argparse.SUPPRESS)
+
+parser.add_argument(
+    '--model_path', type=str,
+    help='path to model weight file, default ' + YOLO.get_defaults("model_path")
+)
+
+parser.add_argument(
+    '--save_path', type=str, default='detection_result.json0',
+    help='path to model weight file, default '
+)
+
+FLAGS = parser.parse_args()
 
 with open(os.path.join("model_data","2020_test.txt"), "r") as f:
     test_data = f.readlines()
@@ -12,8 +27,8 @@ with open(os.path.join("model_data","voc_classes.txt"), "r") as f:
 class_names = [c.strip() for c in class_names]
 
 save_dict = {}
-
-yolo_instance = YOLO()
+print(vars(FLAGS))
+yolo_instance = YOLO(**vars(FLAGS))
 
 for test in test_data:
     test_text = test[:-1].split(" ")
@@ -52,7 +67,7 @@ del draw
 
 #pprint.pprint(save_dict, width=50)
 
-with open("test_result.json", "w") as f:
+with open(FLAGS.save_path, "w") as f:
     json.dump(save_dict, f, indent=4)
 #detected["image"].show()
 

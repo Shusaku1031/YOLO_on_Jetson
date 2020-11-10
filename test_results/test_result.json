@@ -1,0 +1,2256 @@
+{
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_2251.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 10,
+                    "left": 28,
+                    "bottom": 373,
+                    "right": 373
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.06128309667110443,
+                "bbox": {
+                    "left": 0,
+                    "top": 129,
+                    "right": 329,
+                    "bottom": 392
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.08401032537221909,
+                "bbox": {
+                    "left": 41,
+                    "top": 56,
+                    "right": 256,
+                    "bottom": 293
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.11156392842531204,
+                "bbox": {
+                    "left": 92,
+                    "top": 94,
+                    "right": 328,
+                    "bottom": 324
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.12545308470726013,
+                "bbox": {
+                    "left": 129,
+                    "top": 36,
+                    "right": 396,
+                    "bottom": 245
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.2603117823600769,
+                "bbox": {
+                    "left": 118,
+                    "top": 131,
+                    "right": 408,
+                    "bottom": 397
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_143.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 168,
+                    "left": 184,
+                    "bottom": 242,
+                    "right": 248
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.06440732628107071,
+                "bbox": {
+                    "left": 68,
+                    "top": 26,
+                    "right": 287,
+                    "bottom": 309
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.18124449253082275,
+                "bbox": {
+                    "left": 151,
+                    "top": 12,
+                    "right": 386,
+                    "bottom": 331
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_1788.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 185,
+                    "left": 1,
+                    "bottom": 368,
+                    "right": 209
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.06301642209291458,
+                "bbox": {
+                    "left": 120,
+                    "top": 6,
+                    "right": 416,
+                    "bottom": 166
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.06799324601888657,
+                "bbox": {
+                    "left": 194,
+                    "top": 4,
+                    "right": 351,
+                    "bottom": 221
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.39317426085472107,
+                "bbox": {
+                    "left": 150,
+                    "top": 0,
+                    "right": 378,
+                    "bottom": 301
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_8823.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 42,
+                    "left": 0,
+                    "bottom": 351,
+                    "right": 414
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.05318747088313103,
+                "bbox": {
+                    "left": 159,
+                    "top": 0,
+                    "right": 377,
+                    "bottom": 243
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.09886697679758072,
+                "bbox": {
+                    "left": 101,
+                    "top": 121,
+                    "right": 368,
+                    "bottom": 410
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.13118374347686768,
+                "bbox": {
+                    "left": 33,
+                    "top": 28,
+                    "right": 325,
+                    "bottom": 416
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.16016119718551636,
+                "bbox": {
+                    "left": 84,
+                    "top": 3,
+                    "right": 391,
+                    "bottom": 349
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_6784.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 101,
+                    "left": 0,
+                    "bottom": 365,
+                    "right": 311
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.15384702384471893,
+                "bbox": {
+                    "left": 51,
+                    "top": 56,
+                    "right": 316,
+                    "bottom": 238
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.32236921787261963,
+                "bbox": {
+                    "left": 152,
+                    "top": 51,
+                    "right": 380,
+                    "bottom": 291
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_9227.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 22,
+                    "left": 59,
+                    "bottom": 404,
+                    "right": 305
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.0542566291987896,
+                "bbox": {
+                    "left": 0,
+                    "top": 33,
+                    "right": 308,
+                    "bottom": 202
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.06940294802188873,
+                "bbox": {
+                    "left": 61,
+                    "top": 115,
+                    "right": 287,
+                    "bottom": 291
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.149146169424057,
+                "bbox": {
+                    "left": 0,
+                    "top": 33,
+                    "right": 382,
+                    "bottom": 322
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_4525.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 3,
+                    "left": 45,
+                    "bottom": 384,
+                    "right": 196
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.056913405656814575,
+                "bbox": {
+                    "left": 46,
+                    "top": 41,
+                    "right": 248,
+                    "bottom": 178
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.2425607591867447,
+                "bbox": {
+                    "left": 113,
+                    "top": 47,
+                    "right": 362,
+                    "bottom": 175
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_4030.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 101,
+                    "left": 64,
+                    "bottom": 248,
+                    "right": 285
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.07710989564657211,
+                "bbox": {
+                    "left": 169,
+                    "top": 31,
+                    "right": 356,
+                    "bottom": 313
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.10371698439121246,
+                "bbox": {
+                    "left": 42,
+                    "top": 39,
+                    "right": 313,
+                    "bottom": 308
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_1002.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 2,
+                    "left": 37,
+                    "bottom": 415,
+                    "right": 311
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.07467744499444962,
+                "bbox": {
+                    "left": 187,
+                    "top": 44,
+                    "right": 345,
+                    "bottom": 185
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.08767614513635635,
+                "bbox": {
+                    "left": 62,
+                    "top": 52,
+                    "right": 303,
+                    "bottom": 186
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.22035571932792664,
+                "bbox": {
+                    "left": 127,
+                    "top": 45,
+                    "right": 402,
+                    "bottom": 237
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.28436559438705444,
+                "bbox": {
+                    "left": 45,
+                    "top": 21,
+                    "right": 321,
+                    "bottom": 271
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_9508.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 30,
+                    "left": 28,
+                    "bottom": 264,
+                    "right": 398
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.050897084176540375,
+                "bbox": {
+                    "left": 107,
+                    "top": 203,
+                    "right": 241,
+                    "bottom": 397
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.08152258396148682,
+                "bbox": {
+                    "left": 68,
+                    "top": 128,
+                    "right": 271,
+                    "bottom": 403
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.08187367022037506,
+                "bbox": {
+                    "left": 30,
+                    "top": 40,
+                    "right": 256,
+                    "bottom": 193
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.21304963529109955,
+                "bbox": {
+                    "left": 33,
+                    "top": 99,
+                    "right": 244,
+                    "bottom": 320
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_10829.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 15,
+                    "left": 25,
+                    "bottom": 349,
+                    "right": 269
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.05938056856393814,
+                "bbox": {
+                    "left": 0,
+                    "top": 102,
+                    "right": 242,
+                    "bottom": 244
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.1015733927488327,
+                "bbox": {
+                    "left": 0,
+                    "top": 27,
+                    "right": 325,
+                    "bottom": 260
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.23442086577415466,
+                "bbox": {
+                    "left": 132,
+                    "top": 27,
+                    "right": 392,
+                    "bottom": 249
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_5700.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 2,
+                    "left": 79,
+                    "bottom": 389,
+                    "right": 254
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.058353085070848465,
+                "bbox": {
+                    "left": 37,
+                    "top": 49,
+                    "right": 311,
+                    "bottom": 240
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.13558697700500488,
+                "bbox": {
+                    "left": 94,
+                    "top": 43,
+                    "right": 416,
+                    "bottom": 297
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_7500.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 27,
+                    "left": 78,
+                    "bottom": 351,
+                    "right": 233
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.0991872027516365,
+                "bbox": {
+                    "left": 159,
+                    "top": 74,
+                    "right": 315,
+                    "bottom": 266
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.13517449796199799,
+                "bbox": {
+                    "left": 152,
+                    "top": 6,
+                    "right": 377,
+                    "bottom": 281
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.21969205141067505,
+                "bbox": {
+                    "left": 18,
+                    "top": 69,
+                    "right": 342,
+                    "bottom": 278
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_10506.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 25,
+                    "left": 55,
+                    "bottom": 394,
+                    "right": 241
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.07041060924530029,
+                "bbox": {
+                    "left": 101,
+                    "top": 13,
+                    "right": 314,
+                    "bottom": 274
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.13125520944595337,
+                "bbox": {
+                    "left": 189,
+                    "top": 37,
+                    "right": 399,
+                    "bottom": 300
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.22377371788024902,
+                "bbox": {
+                    "left": 6,
+                    "top": 0,
+                    "right": 289,
+                    "bottom": 341
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.4522837698459625,
+                "bbox": {
+                    "left": 112,
+                    "top": 0,
+                    "right": 413,
+                    "bottom": 362
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_8472.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 156,
+                    "left": 0,
+                    "bottom": 328,
+                    "right": 414
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.10954783111810684,
+                "bbox": {
+                    "left": 126,
+                    "top": 20,
+                    "right": 288,
+                    "bottom": 328
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.2069956362247467,
+                "bbox": {
+                    "left": 105,
+                    "top": 82,
+                    "right": 308,
+                    "bottom": 416
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_9684.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 62,
+                    "left": 67,
+                    "bottom": 340,
+                    "right": 279
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.1186756044626236,
+                "bbox": {
+                    "left": 166,
+                    "top": 77,
+                    "right": 305,
+                    "bottom": 269
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.30766886472702026,
+                "bbox": {
+                    "left": 81,
+                    "top": 40,
+                    "right": 341,
+                    "bottom": 254
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_473.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 0,
+                    "left": 46,
+                    "bottom": 409,
+                    "right": 265
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.07759654521942139,
+                "bbox": {
+                    "left": 109,
+                    "top": 20,
+                    "right": 413,
+                    "bottom": 267
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.10143162310123444,
+                "bbox": {
+                    "left": 15,
+                    "top": 36,
+                    "right": 268,
+                    "bottom": 199
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.33129119873046875,
+                "bbox": {
+                    "left": 14,
+                    "top": 12,
+                    "right": 332,
+                    "bottom": 323
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_12685.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 53,
+                    "left": 32,
+                    "bottom": 406,
+                    "right": 227
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.10753580182790756,
+                "bbox": {
+                    "left": 25,
+                    "top": 34,
+                    "right": 334,
+                    "bottom": 247
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.1089310422539711,
+                "bbox": {
+                    "left": 162,
+                    "top": 29,
+                    "right": 372,
+                    "bottom": 206
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.43363165855407715,
+                "bbox": {
+                    "left": 128,
+                    "top": 56,
+                    "right": 406,
+                    "bottom": 287
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_6008.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 4,
+                    "left": 71,
+                    "bottom": 378,
+                    "right": 200
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.05694102868437767,
+                "bbox": {
+                    "left": 24,
+                    "top": 51,
+                    "right": 266,
+                    "bottom": 171
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.13929802179336548,
+                "bbox": {
+                    "left": 60,
+                    "top": 61,
+                    "right": 416,
+                    "bottom": 219
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.18778543174266815,
+                "bbox": {
+                    "left": 130,
+                    "top": 55,
+                    "right": 344,
+                    "bottom": 179
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_12911.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 2,
+                    "left": 54,
+                    "bottom": 398,
+                    "right": 251
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.052199963480234146,
+                "bbox": {
+                    "left": 31,
+                    "top": 39,
+                    "right": 256,
+                    "bottom": 196
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.054276805371046066,
+                "bbox": {
+                    "left": 176,
+                    "top": 39,
+                    "right": 366,
+                    "bottom": 195
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.18287919461727142,
+                "bbox": {
+                    "left": 115,
+                    "top": 52,
+                    "right": 411,
+                    "bottom": 229
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.2480434775352478,
+                "bbox": {
+                    "left": 0,
+                    "top": 49,
+                    "right": 319,
+                    "bottom": 233
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_2106.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 106,
+                    "left": 54,
+                    "bottom": 275,
+                    "right": 251
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.05229218676686287,
+                "bbox": {
+                    "left": 0,
+                    "top": 16,
+                    "right": 243,
+                    "bottom": 325
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.14316624402999878,
+                "bbox": {
+                    "left": 51,
+                    "top": 64,
+                    "right": 303,
+                    "bottom": 278
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.33805346488952637,
+                "bbox": {
+                    "left": 128,
+                    "top": 47,
+                    "right": 397,
+                    "bottom": 292
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_2322.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 84,
+                    "left": 47,
+                    "bottom": 364,
+                    "right": 361
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.07216490060091019,
+                "bbox": {
+                    "left": 103,
+                    "top": 83,
+                    "right": 320,
+                    "bottom": 268
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.07734251767396927,
+                "bbox": {
+                    "left": 134,
+                    "top": 28,
+                    "right": 394,
+                    "bottom": 257
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.09499390423297882,
+                "bbox": {
+                    "left": 131,
+                    "top": 153,
+                    "right": 394,
+                    "bottom": 376
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_10201.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 7,
+                    "left": 13,
+                    "bottom": 415,
+                    "right": 251
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.051938802003860474,
+                "bbox": {
+                    "left": 0,
+                    "top": 22,
+                    "right": 328,
+                    "bottom": 211
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.09310394525527954,
+                "bbox": {
+                    "left": 117,
+                    "top": 41,
+                    "right": 416,
+                    "bottom": 185
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.1341477334499359,
+                "bbox": {
+                    "left": 60,
+                    "top": 0,
+                    "right": 416,
+                    "bottom": 231
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_1858.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 52,
+                    "left": 69,
+                    "bottom": 252,
+                    "right": 224
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.13393019139766693,
+                "bbox": {
+                    "left": 0,
+                    "top": 38,
+                    "right": 349,
+                    "bottom": 252
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.21627606451511383,
+                "bbox": {
+                    "left": 30,
+                    "top": 93,
+                    "right": 254,
+                    "bottom": 244
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_5399.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 26,
+                    "left": 8,
+                    "bottom": 367,
+                    "right": 391
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.09508636593818665,
+                "bbox": {
+                    "left": 127,
+                    "top": 21,
+                    "right": 398,
+                    "bottom": 261
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.10589506477117538,
+                "bbox": {
+                    "left": 9,
+                    "top": 158,
+                    "right": 283,
+                    "bottom": 374
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.11552179604768753,
+                "bbox": {
+                    "left": 14,
+                    "top": 207,
+                    "right": 212,
+                    "bottom": 335
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.12382116913795471,
+                "bbox": {
+                    "left": 85,
+                    "top": 79,
+                    "right": 416,
+                    "bottom": 392
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.17439749836921692,
+                "bbox": {
+                    "left": 179,
+                    "top": 26,
+                    "right": 358,
+                    "bottom": 200
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_10371.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 0,
+                    "left": 0,
+                    "bottom": 276,
+                    "right": 414
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.0684758722782135,
+                "bbox": {
+                    "left": 46,
+                    "top": 103,
+                    "right": 245,
+                    "bottom": 374
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.17454028129577637,
+                "bbox": {
+                    "left": 8,
+                    "top": 0,
+                    "right": 276,
+                    "bottom": 292
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.23315148055553436,
+                "bbox": {
+                    "left": 57,
+                    "top": 49,
+                    "right": 295,
+                    "bottom": 416
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_7896.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 4,
+                    "left": 18,
+                    "bottom": 361,
+                    "right": 311
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.10196631401777267,
+                "bbox": {
+                    "left": 0,
+                    "top": 72,
+                    "right": 400,
+                    "bottom": 339
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_8795.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 37,
+                    "left": 0,
+                    "bottom": 410,
+                    "right": 265
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.09038272500038147,
+                "bbox": {
+                    "left": 162,
+                    "top": 23,
+                    "right": 360,
+                    "bottom": 209
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.15499158203601837,
+                "bbox": {
+                    "left": 5,
+                    "top": 47,
+                    "right": 349,
+                    "bottom": 292
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.4151293933391571,
+                "bbox": {
+                    "left": 97,
+                    "top": 84,
+                    "right": 416,
+                    "bottom": 262
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_9915.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 117,
+                    "left": 57,
+                    "bottom": 270,
+                    "right": 305
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.1104859784245491,
+                "bbox": {
+                    "left": 156,
+                    "top": 26,
+                    "right": 370,
+                    "bottom": 205
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.12207438796758652,
+                "bbox": {
+                    "left": 0,
+                    "top": 22,
+                    "right": 298,
+                    "bottom": 316
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.18920497596263885,
+                "bbox": {
+                    "left": 126,
+                    "top": 10,
+                    "right": 396,
+                    "bottom": 327
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_7272.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 59,
+                    "left": 56,
+                    "bottom": 228,
+                    "right": 415
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.0798715204000473,
+                "bbox": {
+                    "left": 51,
+                    "top": 84,
+                    "right": 246,
+                    "bottom": 277
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.09146713465452194,
+                "bbox": {
+                    "left": 79,
+                    "top": 133,
+                    "right": 219,
+                    "bottom": 348
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.1559687852859497,
+                "bbox": {
+                    "left": 65,
+                    "top": 113,
+                    "right": 283,
+                    "bottom": 412
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_4857.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 1,
+                    "left": 22,
+                    "bottom": 294,
+                    "right": 383
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.06133868917822838,
+                "bbox": {
+                    "left": 151,
+                    "top": 138,
+                    "right": 263,
+                    "bottom": 396
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.06772443652153015,
+                "bbox": {
+                    "left": 33,
+                    "top": 44,
+                    "right": 205,
+                    "bottom": 304
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.14054995775222778,
+                "bbox": {
+                    "left": 83,
+                    "top": 53,
+                    "right": 270,
+                    "bottom": 244
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.2631484270095825,
+                "bbox": {
+                    "left": 60,
+                    "top": 80,
+                    "right": 292,
+                    "bottom": 341
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_10982.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 15,
+                    "left": 0,
+                    "bottom": 238,
+                    "right": 181
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.0759415253996849,
+                "bbox": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 310,
+                    "bottom": 280
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.12897297739982605,
+                "bbox": {
+                    "left": 91,
+                    "top": 18,
+                    "right": 416,
+                    "bottom": 258
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_10352.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 159,
+                    "left": 16,
+                    "bottom": 401,
+                    "right": 265
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.2581213712692261,
+                "bbox": {
+                    "left": 144,
+                    "top": 0,
+                    "right": 386,
+                    "bottom": 293
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_2116.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 7,
+                    "left": 0,
+                    "bottom": 272,
+                    "right": 363
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.05373303219676018,
+                "bbox": {
+                    "left": 107,
+                    "top": 129,
+                    "right": 236,
+                    "bottom": 400
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.13823509216308594,
+                "bbox": {
+                    "left": 0,
+                    "top": 12,
+                    "right": 299,
+                    "bottom": 220
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.2942168116569519,
+                "bbox": {
+                    "left": 31,
+                    "top": 49,
+                    "right": 258,
+                    "bottom": 363
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_9254.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 164,
+                    "left": 92,
+                    "bottom": 258,
+                    "right": 175
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.056102871894836426,
+                "bbox": {
+                    "left": 91,
+                    "top": 61,
+                    "right": 312,
+                    "bottom": 223
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.06187615171074867,
+                "bbox": {
+                    "left": 106,
+                    "top": 31,
+                    "right": 416,
+                    "bottom": 252
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.10091904550790787,
+                "bbox": {
+                    "left": 0,
+                    "top": 62,
+                    "right": 410,
+                    "bottom": 289
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_189.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 52,
+                    "left": 127,
+                    "bottom": 353,
+                    "right": 276
+                }
+            },
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 0,
+                    "left": 11,
+                    "bottom": 332,
+                    "right": 138
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.053011976182460785,
+                "bbox": {
+                    "left": 35,
+                    "top": 76,
+                    "right": 321,
+                    "bottom": 269
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.063041090965271,
+                "bbox": {
+                    "left": 92,
+                    "top": 89,
+                    "right": 259,
+                    "bottom": 251
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.10402480512857437,
+                "bbox": {
+                    "left": 121,
+                    "top": 23,
+                    "right": 404,
+                    "bottom": 261
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_429.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 1,
+                    "left": 1,
+                    "bottom": 414,
+                    "right": 311
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.07835368812084198,
+                "bbox": {
+                    "left": 93,
+                    "top": 24,
+                    "right": 320,
+                    "bottom": 207
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.08078110218048096,
+                "bbox": {
+                    "left": 0,
+                    "top": 33,
+                    "right": 291,
+                    "bottom": 304
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.16619789600372314,
+                "bbox": {
+                    "left": 119,
+                    "top": 43,
+                    "right": 409,
+                    "bottom": 296
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_1100.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 165,
+                    "left": 0,
+                    "bottom": 261,
+                    "right": 234
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.06455639004707336,
+                "bbox": {
+                    "left": 120,
+                    "top": 0,
+                    "right": 238,
+                    "bottom": 238
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.1025947704911232,
+                "bbox": {
+                    "left": 88,
+                    "top": 0,
+                    "right": 322,
+                    "bottom": 340
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.13615652918815613,
+                "bbox": {
+                    "left": 141,
+                    "top": 52,
+                    "right": 262,
+                    "bottom": 285
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_3315.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 2,
+                    "left": 49,
+                    "bottom": 401,
+                    "right": 242
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.05925466865301132,
+                "bbox": {
+                    "left": 89,
+                    "top": 41,
+                    "right": 326,
+                    "bottom": 186
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.07058034092187881,
+                "bbox": {
+                    "left": 20,
+                    "top": 18,
+                    "right": 272,
+                    "bottom": 258
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.188742533326149,
+                "bbox": {
+                    "left": 87,
+                    "top": 24,
+                    "right": 387,
+                    "bottom": 259
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_2230.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 36,
+                    "left": 7,
+                    "bottom": 379,
+                    "right": 203
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.0872633084654808,
+                "bbox": {
+                    "left": 0,
+                    "top": 74,
+                    "right": 316,
+                    "bottom": 259
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.09076882898807526,
+                "bbox": {
+                    "left": 61,
+                    "top": 70,
+                    "right": 416,
+                    "bottom": 217
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.1677282750606537,
+                "bbox": {
+                    "left": 121,
+                    "top": 0,
+                    "right": 353,
+                    "bottom": 245
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.2387474924325943,
+                "bbox": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 378,
+                    "bottom": 305
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_376.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 57,
+                    "left": 0,
+                    "bottom": 415,
+                    "right": 253
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.11384793370962143,
+                "bbox": {
+                    "left": 64,
+                    "top": 35,
+                    "right": 416,
+                    "bottom": 250
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_148.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 1,
+                    "left": 12,
+                    "bottom": 412,
+                    "right": 275
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.20702381432056427,
+                "bbox": {
+                    "left": 2,
+                    "top": 39,
+                    "right": 294,
+                    "bottom": 242
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.3832758367061615,
+                "bbox": {
+                    "left": 109,
+                    "top": 3,
+                    "right": 411,
+                    "bottom": 223
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_9348.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 0,
+                    "left": 0,
+                    "bottom": 182,
+                    "right": 397
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.08916854113340378,
+                "bbox": {
+                    "left": 61,
+                    "top": 93,
+                    "right": 163,
+                    "bottom": 416
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.11542677134275436,
+                "bbox": {
+                    "left": 23,
+                    "top": 57,
+                    "right": 139,
+                    "bottom": 355
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.154152512550354,
+                "bbox": {
+                    "left": 51,
+                    "top": 0,
+                    "right": 164,
+                    "bottom": 250
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_8677.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 90,
+                    "left": 0,
+                    "bottom": 413,
+                    "right": 311
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.05915133282542229,
+                "bbox": {
+                    "left": 0,
+                    "top": 22,
+                    "right": 327,
+                    "bottom": 256
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.18325048685073853,
+                "bbox": {
+                    "left": 70,
+                    "top": 24,
+                    "right": 416,
+                    "bottom": 200
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_3491.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 123,
+                    "left": 0,
+                    "bottom": 313,
+                    "right": 276
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.17158988118171692,
+                "bbox": {
+                    "left": 127,
+                    "top": 2,
+                    "right": 399,
+                    "bottom": 282
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_6571.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 37,
+                    "left": 2,
+                    "bottom": 343,
+                    "right": 226
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.050728023052215576,
+                "bbox": {
+                    "left": 86,
+                    "top": 0,
+                    "right": 416,
+                    "bottom": 121
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.1272532343864441,
+                "bbox": {
+                    "left": 52,
+                    "top": 56,
+                    "right": 416,
+                    "bottom": 283
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.16190670430660248,
+                "bbox": {
+                    "left": 38,
+                    "top": 0,
+                    "right": 374,
+                    "bottom": 237
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_10499.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 83,
+                    "left": 0,
+                    "bottom": 332,
+                    "right": 222
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.05767574533820152,
+                "bbox": {
+                    "left": 31,
+                    "top": 3,
+                    "right": 332,
+                    "bottom": 163
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.0644325390458107,
+                "bbox": {
+                    "left": 101,
+                    "top": 101,
+                    "right": 416,
+                    "bottom": 295
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.06936927884817123,
+                "bbox": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 360,
+                    "bottom": 277
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.3314821124076843,
+                "bbox": {
+                    "left": 100,
+                    "top": 9,
+                    "right": 416,
+                    "bottom": 220
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_10120.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 106,
+                    "left": 80,
+                    "bottom": 319,
+                    "right": 207
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.08313077688217163,
+                "bbox": {
+                    "left": 12,
+                    "top": 48,
+                    "right": 349,
+                    "bottom": 239
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.2373001128435135,
+                "bbox": {
+                    "left": 89,
+                    "top": 19,
+                    "right": 416,
+                    "bottom": 267
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.25908535718917847,
+                "bbox": {
+                    "left": 111,
+                    "top": 86,
+                    "right": 366,
+                    "bottom": 213
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_59.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 6,
+                    "left": 0,
+                    "bottom": 386,
+                    "right": 390
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.055123429745435715,
+                "bbox": {
+                    "left": 127,
+                    "top": 11,
+                    "right": 403,
+                    "bottom": 158
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.05721381679177284,
+                "bbox": {
+                    "left": 103,
+                    "top": 136,
+                    "right": 416,
+                    "bottom": 388
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.07237442582845688,
+                "bbox": {
+                    "left": 37,
+                    "top": 11,
+                    "right": 328,
+                    "bottom": 266
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.1813601553440094,
+                "bbox": {
+                    "left": 0,
+                    "top": 48,
+                    "right": 378,
+                    "bottom": 416
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.36936357617378235,
+                "bbox": {
+                    "left": 85,
+                    "top": 8,
+                    "right": 416,
+                    "bottom": 335
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_5800.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 0,
+                    "left": 21,
+                    "bottom": 409,
+                    "right": 218
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.09260670840740204,
+                "bbox": {
+                    "left": 64,
+                    "top": 93,
+                    "right": 416,
+                    "bottom": 197
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.1197677031159401,
+                "bbox": {
+                    "left": 8,
+                    "top": 54,
+                    "right": 343,
+                    "bottom": 229
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.40608295798301697,
+                "bbox": {
+                    "left": 115,
+                    "top": 25,
+                    "right": 408,
+                    "bottom": 261
+                }
+            }
+        ]
+    },
+    "/home/tomita/keras-yolo3/use_images/n02231487/n02231487_11404.jpg": {
+        "ground truth": [
+            {
+                "class": "n02231487",
+                "bbox": {
+                    "top": 6,
+                    "left": 53,
+                    "bottom": 415,
+                    "right": 310
+                }
+            }
+        ],
+        "prediction": [
+            {
+                "class": "n02231487",
+                "score": 0.08577033877372742,
+                "bbox": {
+                    "left": 0,
+                    "top": 56,
+                    "right": 305,
+                    "bottom": 287
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.1454545110464096,
+                "bbox": {
+                    "left": 133,
+                    "top": 27,
+                    "right": 392,
+                    "bottom": 208
+                }
+            },
+            {
+                "class": "n02231487",
+                "score": 0.3397279381752014,
+                "bbox": {
+                    "left": 83,
+                    "top": 47,
+                    "right": 416,
+                    "bottom": 299
+                }
+            }
+        ]
+    }
+}
