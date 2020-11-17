@@ -24,7 +24,7 @@ def _main():
     sess = tf.Session(config=config)
     K.set_session(sess)
 
-    annotation_path = 'model_data/2020_train_part2.txt'
+    annotation_path = 'model_data/2020_train_part1.txt'
     log_dir = 'logs/000/'
     classes_path = 'model_data/voc_classes.txt'
     anchors_path = 'model_data/tiny_yolo_anchors.txt'
@@ -62,7 +62,7 @@ def _main():
     # Train with frozen layers first, to get a stable loss.
     # Adjust num epochs to your dataset. This step is enough to obtain a not bad model.
     start_time = time.time()
-    """ if True:
+    if True:
         model.compile(optimizer=Adam(lr=1e-3), loss={
             # use custom yolo_loss Lambda layer.
             'yolo_loss': lambda y_true, y_pred: y_pred})
@@ -76,10 +76,10 @@ def _main():
                 steps_per_epoch=max(1, num_train//batch_size),
                 validation_data=data_generator_wrapper(lines[num_train:], batch_size, input_shape, anchors, num_classes),
                 validation_steps=max(1, num_val//batch_size),
-                epochs=50,
+                epochs=25,
                 initial_epoch=0,
                 callbacks=[logging, checkpoint])
-        model.save_weights(log_dir + 'trained_weights_stage_1.h5') """
+        model.save_weights(log_dir + 'trained_weights_stage_1.h5')
 
     # Unfreeze and continue training, to fine-tune.
     # Train longer if the result is not good.
@@ -98,9 +98,9 @@ def _main():
             #epochs=100,
             #initial_epoch=50,
             epochs=50,
-            initial_epoch=0,
+            initial_epoch=25,
             callbacks=[logging, checkpoint, reduce_lr, early_stopping])
-        model.save_weights(log_dir + 'trained_weights_final_part2.h5')
+        model.save_weights(log_dir + 'trained_weights_final_part1.h5')
     
     # Further training if needed.
 

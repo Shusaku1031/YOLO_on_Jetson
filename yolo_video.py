@@ -1,5 +1,7 @@
 import sys
 import argparse
+import tensorflow as tf
+import keras.backend as K
 from yolo import YOLO, detect_video
 from PIL import Image
 
@@ -22,6 +24,14 @@ def detect_img(yolo):
 FLAGS = None
 
 if __name__ == '__main__':
+
+
+    print("Configuration...")
+    config = tf.ConfigProto()
+    config.gpu_options.per_process_gpu_memory_fraction = 0.66
+    sess = tf.Session(config=config)
+    K.set_session(sess)
+
     # class YOLO defines the default value, so suppress any default here
     parser = argparse.ArgumentParser(argument_default=argparse.SUPPRESS)
     '''
