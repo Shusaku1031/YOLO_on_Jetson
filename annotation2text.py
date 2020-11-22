@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 import os
 import cv2
+import copy
 import numpy as np 
 
 
@@ -33,6 +34,8 @@ for f in files:
         max_side = max(img.shape)
         count += 1
         square = np.zeros((max_side,max_side,img.shape[2]), dtype="uint8")
+        #noise = cv2.imread("whitenoise.jpg")
+        #noise = cv2.resize(noise,(max_side,max_side))
 
         for i in range(img.shape[0]):
             for j in range(img.shape[1]):
@@ -72,7 +75,8 @@ for f in files:
 
         for i in range(len(xmin)):
             print((xmin[i],ymin[i],xmax[i],ymax[i]))
-            annotation_text += " {},{},{},{},{}".format(xmin[i],ymin[i],xmax[i],ymax[i],0) 
+            #annotation_text += " {},{},{},{},{}".format(xmin[i],ymin[i],xmax[i],ymax[i],0)
+            annotation_text += " {},{},{},{},{}".format(ymin[i],xmin[i],ymax[i],xmax[i],0) 
             #cv2.rectangle(square,(xmin[i],ymin[i]),(xmax[i],ymax[i]),(56,0,231),2)
 
         availables.append(annotation_text)

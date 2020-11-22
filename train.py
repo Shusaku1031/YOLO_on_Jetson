@@ -24,7 +24,7 @@ def _main():
     sess = tf.Session(config=config)
     K.set_session(sess)
 
-    annotation_path = 'model_data/2020_train_part1.txt'
+    annotation_path = 'model_data/2020_train.txt'
     log_dir = 'logs/000/'
     classes_path = 'model_data/voc_classes.txt'
     anchors_path = 'model_data/tiny_yolo_anchors.txt'
@@ -100,7 +100,7 @@ def _main():
             epochs=50,
             initial_epoch=25,
             callbacks=[logging, checkpoint, reduce_lr, early_stopping])
-        model.save_weights(log_dir + 'trained_weights_final_part1.h5')
+        model.save_weights(log_dir + 'trained_weights_final.h5')
     
     # Further training if needed.
 

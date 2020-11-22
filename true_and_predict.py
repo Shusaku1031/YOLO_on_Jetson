@@ -2,8 +2,17 @@ import os
 import json
 import pprint
 import argparse
+import tensorflow as tf
+import keras.backend as K
 from yolo import YOLO
 from PIL import Image, ImageDraw
+
+print("Configuration...")
+config = tf.ConfigProto()
+config.gpu_options.per_process_gpu_memory_fraction = 0.66
+sess = tf.Session(config=config)
+K.set_session(sess)
+
 
 parser = argparse.ArgumentParser(argument_default=argparse.SUPPRESS)
 
@@ -22,7 +31,7 @@ with open(os.path.join("model_data","voc_classes.txt"), "r") as f:
     class_names = f.readlines()
 class_names = [c.strip() for c in class_names]
 
-test_text = test_data[48].split(" ")
+test_text = test_data[12].split(" ")
 img_path = test_text[0]
 img = Image.open(img_path)
 
@@ -47,7 +56,7 @@ for bbox in test_text[1:]:
     gt_bbox.append(gt)
     for i in range(3):
         draw.rectangle(
-            [int(bbox_split[1]) + i, int(bbox_split[0]) + i, int(bbox_split[2]) - i, int(bbox_split[3]) - i],
+            [gt["bbox"]["left"] + i, gt["bbox"]["top"] + i, gt["bbox"]["right"] - i, gt["bbox"]["bottom"] - i],
         outline=(0,0,255))
 
 print(img_path)
